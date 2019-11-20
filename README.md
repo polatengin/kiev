@@ -79,6 +79,6 @@ All the [ConfigItem](ssh_config.ps1#L3)s will appended to the [SSH Configuration
 
 ### Help
 
-Reference: [ssh_config.ps1#L232](./ssh_config.ps1#L232)
+Reference: [ssh_config.ps1#L281](./ssh_config.ps1#L281)
 
 ![SSH Configuration Helper](./screen-shot-1.png "SSH Configuration Helper")
