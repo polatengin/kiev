@@ -20,14 +20,14 @@ Reference: [ssh_config.ps1#L40](./ssh_config.ps1#L40)
 
 You can choose 1 of the following Menu Items
 
-* Login Azure
-* List VM Machines
-* Start VM Machine(s)
-* Stop VM Machine(s)
-* Clean SSH Config File
-* Add SSH Config for Azure VMs
-* Help
-* Quit
+* [Login Azure](#login-to-azure)
+* [List VM Machines](#list-vm-machines)
+* [Start VM Machine(s)](#start-vm-machines)
+* [Stop VM Machine(s)](#stop-vm-machines)
+* [Clean SSH Config File](#clean-ssh-configuration-file)
+* [Add SSH Config for Azure VMs](#add-ssh-config-for-azure-vms)
+* [Help](#help)
+* [Quit](./ssh_config.ps1#L71)
 
 ![SSH Configuration Helper Menu](./screen-shot-0.png "SSH Configuration Helper Menu")
 
