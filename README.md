@@ -82,3 +82,7 @@ All the [ConfigItem](ssh_config.ps1#L3)s will appended to the [SSH Configuration
 Reference: [ssh_config.ps1#L281](./ssh_config.ps1#L281)
 
 ![SSH Configuration Helper](./screen-shot-1.png "SSH Configuration Helper")
+
+## References
+
+[Write-Menu](https://github.com/QuietusPlus/Write-Menu) function for _PowerShell_ (created by [QuietusPlus](https://github.com/QuietusPlus)) helped a-lot during the development of this script.
