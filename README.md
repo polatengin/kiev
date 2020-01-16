@@ -1,10 +1,10 @@
 # SSH Configuration Helper
 
-In projects, we usually need to open an _SSH connection_ to remote systems.
+In projects, we usually need to open _SSH connections_ to remote systems.
 
 For example, we can open an _SSH connection_ to a _remote machine_ from within the [Visual Studio Code](https://code.visualstudio.com) (you need to have [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension pack) and develop the project inside of the remote machine.
 
-This scenario allows us to have a _thin machine_, but still, develop the project with much more powerfull machine with lots of _RAM_, _CPU_ and even _GPU_ resources on [Azure](https://azure.microsoft.com).
+This scenario allows us to have a _thin machine_, but still, develop the project with a much more powerful machine with lots of _RAM_, _CPU_ and even _GPU_ resources on [Azure](https://azure.microsoft.com).
 
 But to do that, we need to edit [SSH Configuration file](https://www.ssh.com/ssh/config/)
 
@@ -39,7 +39,7 @@ You can login to [Azure Portal](https://portal.azure.com) via [Azure CLI](https:
 
 It's checking if the user is already logged-in to the [Azure Portal](https://portal.azure.com), if not, it launches a new browser page to login to the [Azure Portal](https://portal.azure.com).
 
-If only 1 subscription is available for the user, it selects that subscription, if there is more than 1 subscription, it asks user to choose one of them, and, it sets that subscription as _Default_.
+If only 1 subscription is available for the user, it selects that subscription, if there is more than 1 subscription, it asks the user to choose one of them, and, it sets that subscription as _Default_.
 
 So, all the upcoming commands will be executed on selected subscription, such as, getting the list of VMs, etc.
 
@@ -65,7 +65,7 @@ It's getting all the _VMs_ on _Azure Subscription_, list them with checkboxes, s
 
 Reference: [ssh_config.ps1#L146](./ssh_config.ps1#L146)
 
-It parse the [SSH Configuration file](https://www.ssh.com/ssh/config/) and creates an [ConfigItem](ssh_config.ps1#L3) array.
+It parse the [SSH Configuration file](https://www.ssh.com/ssh/config/) and creates a [ConfigItem](ssh_config.ps1#L3) array.
 
 Lists [ConfigItem](ssh_config.ps1#L3) array with checkboxes, selected [ConfigItem](ssh_config.ps1#L3)s will be preserved, others will be removed from the [SSH Configuration file](https://www.ssh.com/ssh/config/)
 
@@ -75,7 +75,7 @@ Reference: [ssh_config.ps1#L232](./ssh_config.ps1#L232)
 
 It gets all the _VMs_ on the _Azure Subscription_, lists them with checkboxes, for the selected VMs a new [ConfigItem](ssh_config.ps1#L3) element will be created.
 
-All the [ConfigItem](ssh_config.ps1#L3)s will appended to the [SSH Configuration file](https://www.ssh.com/ssh/config/)
+All the [ConfigItem](ssh_config.ps1#L3)s will be appended to the [SSH Configuration file](https://www.ssh.com/ssh/config/)
 
 ### Help
 
